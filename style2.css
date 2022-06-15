@@ -1,0 +1,93 @@
+html{
+    min-height: 100%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+min-width: 10%;
+min-height: auto;
+}
+/* tamaño del contenedor  */
+
+.contenedor1{
+    width: 100vw;
+    height: 70vh;
+}
+
+/* Direccion del contenedor */
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor1 input{
+    width: 350px;
+    margin: auto ;
+    padding: 25px;
+}
+
+/* estilo del input */
+
+.contenedor1 input{
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.contenedor1 input:hover{
+    border: none;
+}
+
+.botones{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+.btnPrimero{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: snow;
+    font-weight: bold;
+}
+
+.btnPrimero:hover{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+.btnAgregarPalabra{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: snow;
+    font-weight: bold;
+
+}
+
+.btnAgregarPalabra:hover{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+ 
